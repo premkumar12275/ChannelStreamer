@@ -8,6 +8,7 @@ docker run -d --hostname prem-rabbitMQ --name prem-rabbitMQ -e RABBITMQ_DEFAULT_
 It will take a couple of minutes for rabbitMQ to completely serve requests
 
 you can browse http://172.17.0.2:15672/#/ to check if the server is up and running
+
 172.17.0.2 should be the container IP address.
 
 Build:
