@@ -1,6 +1,8 @@
 # ChannelStreamer
 ChannelStreamer
 PreRequisite: run the below docker command to run rabbitMQ server as docker container
+
+
 docker run -d --hostname prem-rabbitMQ --name prem-rabbitMQ -e RABBITMQ_DEFAULT_USER=user -e RABBITMQ_DEFAULT_PASS=password -p 5672:5672 -p 15672:15672 rabbitmq:3-management
 
 It will take a couple of minutes for rabbitMQ to completely serve requests
