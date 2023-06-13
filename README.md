@@ -16,18 +16,6 @@ mvn clean install
 
 Run Application
 
-write into Stream1:
-http://localhost:8080/api/stream1/writeData/{write_limit}
-
-example: http://localhost:8080/api/stream1/writeData/200
-this will instert 200 records into stream1.json file
-
-Write into Stream2:
-http://localhost:8080/api/stream2/writeData/{write_limit}
-
-example: http://localhost:8080/api/stream2/writeData/200
-this will instert 200 records into stream2.json file
-
 Read from Stream1
 http://localhost:8080/api/stream1/readData/{stream_limit}
 
