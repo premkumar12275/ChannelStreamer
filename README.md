@@ -9,7 +9,7 @@ It will take a couple of minutes for rabbitMQ to completely serve requests
 
 you can browse http://172.17.0.2:15672/#/ to check if the server is up and running
 
-172.17.0.2 should be the container IP address.
+172.17.0.2 should be replaced with the container IP address.
 
 Build:
 mvn clean install
